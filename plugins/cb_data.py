@@ -58,7 +58,7 @@ async def doc(bot,update):
      if c_caption:
          caption = c_caption.format(filename=new_filename, filesize=humanize.naturalsize(media.file_size), duration=convert(duration))
      else:
-         caption = f"**{new_filename}**\n\n**🔗 мαιη cнαηηεℓ ℓιηк ☞\nhttps://t.me/+DQa36VenMOU3NzE1\n\n🔗 Movie Group ℓιηк ☞\nhttps://t.me/+bdY5BTlKi5ViYzY9**"
+         caption = f"**{new_filename}**\n\n**🔗 мαιη cнαηηεℓ ℓιηк ☞\nt.me/+DQa36VenMOU3NzE1\n\n🔗 𝑀𝑜𝑣𝑖𝑒 𝐺𝑟𝑜𝑢𝑝 𝐿𝑖𝑛𝑘 ☞\nhttps://t.me/+bdY5BTlKi5ViYzY9**"
      if (media.thumbs or c_thumb):
          if c_thumb:
             ph_path = await bot.download_media(c_thumb) 
